@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+body {
+    background-color: indigo;
+}
+.mine-picture {
+    width: 150px;
+    height: 147px;
+}
+
+.box {
+    
+}

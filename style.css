@@ -15,26 +15,52 @@ body {
 }
 .mine-picture {
     border-radius: 20px;
-    width: 150px;
-    height: 147px;
+    width: 180px;
+    height: 180px;
     padding: 16px;
 }
 
 .box {
     background-color: #ffffff;
     width: 633px;
-    padding: 15px;
+    padding: 30px;
     border-radius: 16px;
+    box-sizing: border-box;
+
 }
 
 .my-card__name {
     font-family: Arial;
+    margin-bottom: 0px;
+    font-size: 36px;
 }
 
 .my-card__about-me {
     font-family: Arial;
+    font-size: 16px;
+    margin: 0px 0px 0px;
+    line-height: 22px;
+}
+
+.my-card__about-me--font-color {
+    font-family: arial;
+    color: #ED6D05;
+
 }
 
 .my-card__footer {
     font-family: arial;
 }
+
+.my-card__footer__color {
+
+    color: #E20613;
+}
+
+.my-card__stanowisko {
+    color: #545454;
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 0px;
+    font-style: italic;
+ }

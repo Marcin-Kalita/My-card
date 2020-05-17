@@ -14,9 +14,9 @@ body {
     min-height: 100vh;
 }
 .mine-picture {
-    border-radius: 20px;
-    width: 150px;
-    height: 150px;
+    border-radius: 100px;
+    width: 140px;
+    height: 140x;
     margin-right: 30px;
 }
 
@@ -28,6 +28,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 
 }
 

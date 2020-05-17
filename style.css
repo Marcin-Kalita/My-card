@@ -15,22 +15,25 @@ body {
 }
 .mine-picture {
     border-radius: 20px;
-    width: 180px;
-    height: 180px;
-    padding: 16px;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
 }
 
 .box {
     background-color: #ffffff;
-    width: 633px;
-    padding: 30px;
+    width: 638px;
+    padding: 25px;
     border-radius: 16px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
 
 }
 
 .my-card__name {
     font-family: Arial;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-size: 36px;
 }
@@ -49,11 +52,11 @@ body {
 }
 
 .my-card__footer {
+    margin-bottom: 0px;
     font-family: arial;
 }
 
 .my-card__footer__color {
-
     color: #E20613;
 }
 
